@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My India Trip</title>
     <link rel="stylesheet" href="minorproject.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 <body>
     
@@ -34,8 +35,8 @@
 
         <!-- background image text -->
 
-        <div class="bgimg">
-            <div class="imagetext">
+        <div class="bgimg" data-aos="slide-right">
+            <div class="imagetext" >
                 <span class="main-heading">WELCOME TO MY INDIA TOURISM</span>
                 <span>“The journey of a thousand miles begins with a single step.”</span>
                 <!-- <button class="bgbutton"><a href="">GET CUSTOM QUOTE NOW!</a></button> -->
@@ -44,7 +45,7 @@
 
         <!-- belowimgtext -->
 
-        <div class="belowimgtext">
+        <div class="belowimgtext text-center text-md-start" data-aos="fade-up">
             <h1 align="center" style="text-decoration: underline;">“Travel is my therapy.”</h1>
             <h3 align="center">“Work, Travel, Save, Repeat.”</h3>
             <p align="center">Let us help you find the perfect private tour . Ideal destinations for a holiday,weekend break,or honeymoon </p>
@@ -53,67 +54,67 @@
 
         <!-- state boxes -->
 
-        <div class="cardbox">
-            <div class="tnbox">
+        <div class="cardbox" >
+            <div class="tnbox" data-aos="slide-right">
                 <section id="section01" class="demo"><h2 class="tntext">TAMILNADU</h2></section>
                 <button class="buttonclass">
                     <a href="./tamilnadu/tamilnadu.html" >EXPLORE</a>
                 </button>    
             </div>
-            <div class="keralabox">
+            <div class="keralabox" data-aos="fade-up">
                 <h2 class="tntext">KERALA</h2>  
                 <button class="buttonclass">
                     <a href="./kerala/kerala.html">EXPLORE</a>
                 </button>               
             </div>
-            <div class="karnatakabox">
+            <div class="karnatakabox" data-aos="slide-left">
                 <h2 class="tntext">KARNATAKA</h2>  
                 <button class="buttonclass">
                     <a href="./karnataka/karnataka.html">EXPLORE</a>
                 </button> 
                 
             </div>
-            <div class="andrabox">
+            <div class="andrabox" data-aos="slide-right">
                 <h2 class="tntext">ANDHRA PRADESH</h2>  
                 <button class="buttonclass">
                     <a href="./andrapradesh/andrapradesh.html" >EXPLORE</a>
                 </button> 
             </div>
-            <div class="teluganabox">
+            <div class="teluganabox" data-aos="fade-up">
                 <h2 class="tntext">TELANGANA</h2>  
                 <button class="buttonclass">
                     <a href="./telugana/Telangana.html">EXPLORE</a>
                 </button> 
     
             </div>
-            <div class="maharastrabox">
+            <div class="maharastrabox" data-aos="slide-left">
                 <h2 class="tntext">MAHARASHTRA</h2>  
                 <button class="buttonclass">
                     <a href="./maharastra/maharastra.html">EXPLORE</a>
                 </button> 
     
             </div>
-            <div class="punjabbox">
+            <div class="punjabbox" data-aos="slide-right">
                 <h2 class="tntext">PUNJAB</h2>  
                 <button class="buttonclass">
                     <a href="./punjab/punjab.html">EXPLORE</a>
                 </button> 
             </div>
-            <div class="gujaratbox">
+            <div class="gujaratbox" data-aos="fade-up">
                 <h2 class="tntext">GUJARAT</h2>  
                 <button class="buttonclass">
                     <a href="./gujarat/gujarat.html">EXPLORE</a>
                 </button> 
     
             </div>
-            <div class="goabox">
+            <div class="goabox" data-aos="slide-left">
                 <h2 class="tntext">GOA</h2>  
                 <button class="buttonclass">
                     <a href="./goa/goa.html">EXPLORE</a>
                 </button> 
     
             </div>
-            <div class="uttarpradeshbox">
+            <div class="uttarpradeshbox" data-aos="fade-up">
                 <h2 class="tntext">UTTAR PRADESH</h2>  
                 <button class="buttonclass">
                     <a href="./uttar pradesh/uttarpradesh.html" >EXPLORE</a>
@@ -166,6 +167,14 @@
     </footer>
 
 
-    
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- Custom JS -->
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
